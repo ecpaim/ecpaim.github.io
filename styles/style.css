@@ -1,0 +1,32 @@
+html {
+	font-size: 12px; /* comment */
+	font-family: 'Open Sans', sans-serif;
+	background-color: #9138EA;
+}
+
+body{
+	width: 600px; /*forces the body to be 600 pixels wide*/
+	margin: 0 auto; /*the first value (0) affects top/bottom and the second
+	affects left/right. auto means that will use avaliable space */
+	background-color: #9B9B9B;
+	padding: 0 20px 20px 20px; /*space around the content. top, right, bottom, left*/
+	border: 5px solid black; /*5 pixel wide border on all sides of the body */
+}
+
+h1 {
+	margin: 0;
+	padding: 20px 0; /* top and bottom padding to 20px*/
+	text-shadow: 3px 3px 1px black;
+}
+img{
+	display: block; /* images are in-line elements so they need this
+	line to have block properties like margin*/
+	margin: 0 auto;
+	width: 600px;
+}
+
+p,li {
+	font-size: 16px;
+	line-height: 2;
+	letter-spacing:1px;
+}
